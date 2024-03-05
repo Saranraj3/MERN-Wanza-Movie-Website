@@ -9,6 +9,7 @@ import TrendingSeries from '../Components/Categories/Series/TrendingSeries/Trend
 import PopularSeries from '../Components/Categories/Series/PoularSeries/PopularSeries'
 import AnimatedSeries from '../Components/Categories/Series/AnimatedSeries/AnimatedSeries'
 import AnimeSeries from '../Components/Categories/Series/AnimeSeries/AnimeSeries'
+import Sitcoms from '../Components/Categories/Series/Sitcoms/Sitcoms'
 
 function Home() {
     return (
@@ -23,6 +24,7 @@ function Home() {
             <PopularSeries/>
             <AnimatedSeries/>
             <AnimeSeries/>
+            <Sitcoms/>
         </div>
     )
 }
