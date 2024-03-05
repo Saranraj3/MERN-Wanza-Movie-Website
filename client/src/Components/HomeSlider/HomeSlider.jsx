@@ -2,6 +2,7 @@ import React from 'react'
 import Slider from 'react-slick'
 import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';
+import argylle from '../../Assets/ImageSlider/Home/argylle.jpeg'
 import madameweb from '../../Assets/ImageSlider/Home/madame-web.jpg'
 import poorthings from '../../Assets/ImageSlider/Home/poor-things.jpg'
 import wonka from '../../Assets/ImageSlider/Home/wonka.jpg'
@@ -18,8 +19,11 @@ function HomeSlider() {
         pauseOnHover: false,
     };
   return (
-    <div>
-        <Slider {...settings} className='overflow-x-hidden'>
+    <div className='overflow-x-hidden '>
+        <Slider {...settings} className=' overflow-x-hidden overflow-y-hidden  h-[32rem]'>
+        <div>
+            <img src={argylle} alt="" />
+        </div>
         <div>
             <img src={madameweb} alt="" />
         </div>
