@@ -10,6 +10,7 @@ import PopularSeries from '../Components/Categories/Series/PoularSeries/PopularS
 import AnimatedSeries from '../Components/Categories/Series/AnimatedSeries/AnimatedSeries'
 import AnimeSeries from '../Components/Categories/Series/AnimeSeries/AnimeSeries'
 import Sitcoms from '../Components/Categories/Series/Sitcoms/Sitcoms'
+import Documentary from '../Components/Categories/Series/Documentary/Documentary'
 
 function Home() {
     return (
@@ -25,6 +26,7 @@ function Home() {
             <AnimatedSeries/>
             <AnimeSeries/>
             <Sitcoms/>
+            <Documentary/>
         </div>
     )
 }
