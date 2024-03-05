@@ -5,6 +5,7 @@ import TrendingMovies from '../Components/Categories/Movies/TrendingMovies/Trend
 import PopularMovies from '../Components/Categories/Movies/PopularMovies/PopularMovies'
 import AnimatedMovies from '../Components/Categories/Movies/AnimatedMovies/AnimatedMovies'
 import AnimeMovies from '../Components/Categories/Movies/AnimeMovies/AnimeMovies'
+import TrendingSeries from '../Components/Categories/Series/TrendingSeries/TrendingSeries'
 
 function Home() {
     return (
@@ -15,6 +16,7 @@ function Home() {
             <PopularMovies/>
             <AnimatedMovies/>
             <AnimeMovies/>
+            <TrendingSeries/>
         </div>
     )
 }
