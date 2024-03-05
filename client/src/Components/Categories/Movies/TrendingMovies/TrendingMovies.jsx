@@ -13,7 +13,7 @@ import thehungergames5 from '../../../../Assets/ImageSections/Movies/Trending/th
 function TrendingMovies() {
   return (
     <div>
-        <h1 className='cursor-pointer text-2xl mt-5 ml-5 font-serif'>TRENDING MOVIES</h1>
+        <h1 className='text-white cursor-pointer text-2xl mt-5 ml-5 font-serif'>TRENDING MOVIES</h1>
         <div className='flex cursor-pointer w-[20rem] h-[10rem] gap-5 mt-5 ml-5 '>
             <img src={anyonebutyou} alt="" />
             <img src={aquaman2} alt="" />
