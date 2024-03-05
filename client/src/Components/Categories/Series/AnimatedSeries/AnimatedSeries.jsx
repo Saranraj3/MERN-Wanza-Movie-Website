@@ -15,17 +15,17 @@ function AnimatedSeries() {
         <div>
             <h1 className='text-white cursor-pointer text-2xl mt-5 ml-5 font-serif'>ANIMATED SERIES</h1>
             <div className='flex cursor-pointer w-[20rem] h-[10rem] gap-5 mt-5 ml-5 '>
-             <img src={arcane} alt="" />
-             <img src={avatarthelastairbender} alt="" />
-             <img src={blueeyesamurai} alt="" />
-             <img src={castlevania} alt="" />
-             <img src={invincible} alt="" />
-             <img src={lovedeathplusrobots} alt="" />
-             <img src={primal} alt="" />
-             <img src={rickandmorty} alt="" />
-             <img src={scavengers} alt="" />
-             <img src={undone} alt="" />
-            
+                <img src={arcane} alt="" />
+                <img src={avatarthelastairbender} alt="" />
+                <img src={blueeyesamurai} alt="" />
+                <img src={castlevania} alt="" />
+                <img src={invincible} alt="" />
+                <img src={lovedeathplusrobots} alt="" />
+                <img src={primal} alt="" />
+                <img src={rickandmorty} alt="" />
+                <img src={scavengers} alt="" />
+                <img src={undone} alt="" />
+
             </div>
         </div>
     )
