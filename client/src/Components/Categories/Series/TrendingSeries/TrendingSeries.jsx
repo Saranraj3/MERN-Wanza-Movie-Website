@@ -13,7 +13,7 @@ import truedetective from '../../../../Assets/ImageSections/Series/Trending/true
 function TrendingSeries() {
     return (
         <div>
-            <h1 className='text-white cursor-pointer text-2xl mt-5 ml-5 font-serif'>Trending Series</h1>
+            <h1 className='text-white cursor-pointer text-2xl mt-5 ml-5 font-serif'>TRENDING SERIES</h1>
             <div className='flex cursor-pointer w-[20rem] h-[10rem] gap-5 mt-5 ml-5 '>
                 <img src={ashoka} alt="" />
                 <img src={beef} alt="" />

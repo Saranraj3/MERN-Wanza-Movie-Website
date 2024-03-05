@@ -6,6 +6,8 @@ import PopularMovies from '../Components/Categories/Movies/PopularMovies/Popular
 import AnimatedMovies from '../Components/Categories/Movies/AnimatedMovies/AnimatedMovies'
 import AnimeMovies from '../Components/Categories/Movies/AnimeMovies/AnimeMovies'
 import TrendingSeries from '../Components/Categories/Series/TrendingSeries/TrendingSeries'
+import PopularSeries from '../Components/Categories/Series/PoularSeries/PopularSeries'
+import AnimatedSeries from '../Components/Categories/Series/AnimatedSeries/AnimatedSeries'
 
 function Home() {
     return (
@@ -17,6 +19,8 @@ function Home() {
             <AnimatedMovies/>
             <AnimeMovies/>
             <TrendingSeries/>
+            <PopularSeries/>
+            <AnimatedSeries/>
         </div>
     )
 }
