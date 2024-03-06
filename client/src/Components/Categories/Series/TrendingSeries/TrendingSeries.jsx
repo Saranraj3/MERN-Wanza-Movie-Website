@@ -13,18 +13,18 @@ import truedetective from '../../../../Assets/ImageSections/Series/Trending/true
 function TrendingSeries() {
     return (
         <div>
-            <h1 className='text-white cursor-pointer text-2xl mt-5 ml-5 font-serif'>TRENDING SERIES</h1>
-            <div className='flex cursor-pointer w-[20rem] h-[10rem] gap-5 mt-5 ml-5 '>
-                <img src={ashoka} alt="" />
-                <img src={beef} alt="" />
-                <img src={deadringers} alt="" />
-                <img src={fallout} alt="" />
-                <img src={fargo} alt="" />
-                <img src={genv} alt="" />
-                <img src={halo} alt="" />
-                <img src={penguin} alt="" />
-                <img src={thesympathize} alt="" />
-                <img src={truedetective} alt="" />
+            <h1 className='text-white cursor-pointer text-2xl mt-10 ml-12 font-serif'>TRENDING SERIES</h1>
+            <div className='flex cursor-pointer w-[20rem] h-[10rem] gap-5 mt-5 ml-12 '>
+                <img className='rounded-md hover:scale-125 hover:duration-300' src={ashoka} alt="" />
+                <img className='rounded-md hover:scale-125 hover:duration-300' src={beef} alt="" />
+                <img className='rounded-md hover:scale-125 hover:duration-300' src={deadringers} alt="" />
+                <img className='rounded-md hover:scale-125 hover:duration-300' src={fallout} alt="" />
+                <img className='rounded-md hover:scale-125 hover:duration-300' src={fargo} alt="" />
+                <img className='rounded-md hover:scale-125 hover:duration-300' src={genv} alt="" />
+                <img className='rounded-md hover:scale-125 hover:duration-300' src={halo} alt="" />
+                <img className='rounded-md hover:scale-125 hover:duration-300' src={penguin} alt="" />
+                <img className='rounded-md hover:scale-125 hover:duration-300' src={thesympathize} alt="" />
+                <img className='rounded-md hover:scale-125 hover:duration-300' src={truedetective} alt="" />
 
             </div>
         </div>

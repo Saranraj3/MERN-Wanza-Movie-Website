@@ -13,18 +13,18 @@ import undone from '../../../../Assets/ImageSections/Series/Animated/undone.jpg'
 function AnimatedSeries() {
     return (
         <div>
-            <h1 className='text-white cursor-pointer text-2xl mt-5 ml-5 font-serif'>ANIMATED SERIES</h1>
-            <div className='flex cursor-pointer w-[20rem] h-[10rem] gap-5 mt-5 ml-5 '>
-                <img src={arcane} alt="" />
-                <img src={avatarthelastairbender} alt="" />
-                <img src={blueeyesamurai} alt="" />
-                <img src={castlevania} alt="" />
-                <img src={invincible} alt="" />
-                <img src={lovedeathplusrobots} alt="" />
-                <img src={primal} alt="" />
-                <img src={rickandmorty} alt="" />
-                <img src={scavengers} alt="" />
-                <img src={undone} alt="" />
+            <h1 className='text-white cursor-pointer text-2xl mt-10 ml-12 font-serif'>ANIMATED SERIES</h1>
+            <div className='flex cursor-pointer w-[20rem] h-[10rem] gap-5 mt-5 ml-12 '>
+                <img className='rounded-md hover:scale-125 hover:duration-300' src={arcane} alt="" />
+                <img className='rounded-md hover:scale-125 hover:duration-300' src={avatarthelastairbender} alt="" />
+                <img className='rounded-md hover:scale-125 hover:duration-300' src={blueeyesamurai} alt="" />
+                <img className='rounded-md hover:scale-125 hover:duration-300' src={castlevania} alt="" />
+                <img className='rounded-md hover:scale-125 hover:duration-300' src={invincible} alt="" />
+                <img className='rounded-md hover:scale-125 hover:duration-300' src={lovedeathplusrobots} alt="" />
+                <img className='rounded-md hover:scale-125 hover:duration-300' src={primal} alt="" />
+                <img className='rounded-md hover:scale-125 hover:duration-300' src={rickandmorty} alt="" />
+                <img className='rounded-md hover:scale-125 hover:duration-300' src={scavengers} alt="" />
+                <img className='rounded-md hover:scale-125 hover:duration-300' src={undone} alt="" />
 
             </div>
         </div>

@@ -13,18 +13,18 @@ import thematrix from '../../../../Assets/ImageSections/Movies/Popular/the-matri
 function PopularMovies() {
   return (
     <div>
-        <h1 className='text-white cursor-pointer text-2xl mt-5 ml-5 font-serif' >POUPULAR MOVIES</h1>
-       <div className='flex cursor-pointer w-[20rem] h-[10rem] gap-5 mt-5 ml-5 '>
-        <img src={avatar1} alt="" />
-        <img src={fightclub} alt="" />
-        <img src={gladiator} alt="" />
-        <img src={interstellar} alt="" />
-        <img src={madmax} alt="" />
-        <img src={pulpfiction} alt="" />
-        <img src={terminator} alt="" />
-        <img src={thegodfather} alt="" />
-        <img src={thelordoftherings} alt="" />
-        <img src={thematrix} alt="" />
+        <h1 className='text-white cursor-pointer text-2xl mt-10 ml-12 font-serif' >POUPULAR MOVIES</h1>
+       <div className='flex cursor-pointer w-[20rem] h-[10rem] gap-5 mt-5 ml-12 '>
+        <img className='rounded-md hover:scale-125 hover:duration-300' src={avatar1} alt="" />
+        <img className='rounded-md hover:scale-125 hover:duration-300' src={fightclub} alt="" />
+        <img className='rounded-md hover:scale-125 hover:duration-300' src={gladiator} alt="" />
+        <img className='rounded-md hover:scale-125 hover:duration-300' src={interstellar} alt="" />
+        <img className='rounded-md hover:scale-125 hover:duration-300' src={madmax} alt="" />
+        <img className='rounded-md hover:scale-125 hover:duration-300' src={pulpfiction} alt="" />
+        <img className='rounded-md hover:scale-125 hover:duration-300' src={terminator} alt="" />
+        <img className='rounded-md hover:scale-125 hover:duration-300' src={thegodfather} alt="" />
+        <img className='rounded-md hover:scale-125 hover:duration-300' src={thelordoftherings} alt="" />
+        <img className='rounded-md hover:scale-125 hover:duration-300' src={thematrix} alt="" />
 
        </div>
     </div>

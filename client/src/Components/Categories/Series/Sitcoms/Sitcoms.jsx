@@ -13,18 +13,18 @@ import youngsheldon from '../../../../Assets/ImageSections/Series/Sitcoms/young-
 function Sitcoms() {
     return (
         <div>
-            <h1 className='text-white cursor-pointer text-2xl mt-5 ml-5 font-serif'>SITCOMS</h1>
-            <div className='flex cursor-pointer w-[20rem] h-[10rem] gap-5 mt-5 ml-5 '>
-              <img src={rock} alt="" />
-              <img src={brooklynninenine} alt="" />
-              <img src={community} alt="" />
-              <img src={friends} alt="" />
-              <img src={howimetyourmother} alt="" />
-              <img src={modernfamily} alt="" />
-              <img src={seinfeld} alt="" />
-              <img src={thebigbangtheory} alt="" />
-              <img src={theoffice} alt="" />
-              <img src={youngsheldon} alt="" />
+            <h1 className='text-white cursor-pointer text-2xl mt-10 ml-12 font-serif'>SITCOMS</h1>
+            <div className='flex cursor-pointer w-[20rem] h-[10rem] gap-5 mt-5 ml-12 '>
+              <img className='rounded-md hover:scale-125 hover:duration-300' src={rock} alt="" />
+              <img className='rounded-md hover:scale-125 hover:duration-300' src={brooklynninenine} alt="" />
+              <img className='rounded-md hover:scale-125 hover:duration-300' src={community} alt="" />
+              <img className='rounded-md hover:scale-125 hover:duration-300' src={friends} alt="" />
+              <img className='rounded-md hover:scale-125 hover:duration-300' src={howimetyourmother} alt="" />
+              <img className='rounded-md hover:scale-125 hover:duration-300' src={modernfamily} alt="" />
+              <img className='rounded-md hover:scale-125 hover:duration-300' src={seinfeld} alt="" />
+              <img className='rounded-md hover:scale-125 hover:duration-300' src={thebigbangtheory} alt="" />
+              <img className='rounded-md hover:scale-125 hover:duration-300' src={theoffice} alt="" />
+              <img className='rounded-md hover:scale-125 hover:duration-300' src={youngsheldon} alt="" />
 
             </div>
         </div>

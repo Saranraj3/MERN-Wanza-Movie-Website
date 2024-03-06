@@ -14,18 +14,18 @@ function AnimeMovies() {
 
     return (
         <div>
-            <h1 className='text-white cursor-pointer text-2xl mt-5 ml-5 font-serif'>ANIME MOVIES</h1>
-            <div className='flex cursor-pointer w-[20rem] h-[10rem] gap-5 mt-5 ml-5 '>
-                <img src={graveofthefireflies} alt="" />
-                <img src={howlscastle} alt="" />
-                <img src={myneighbortotoro} alt="" />
-                <img src={perfectblue} alt="" />
-                <img src={ponyo} alt="" />
-                <img src={princessmononoke} alt="" />
-                <img src={spiritedaway} alt="" />
-                <img src={suzume} alt="" />
-                <img src={theboyandtheheron} alt="" />
-                <img src={yourname} alt="" />
+            <h1 className='text-white cursor-pointer text-2xl mt-10 ml-12 font-serif'>ANIME MOVIES</h1>
+            <div className='flex cursor-pointer w-[20rem] h-[10rem] gap-5 mt-5 ml-12 '>
+                <img className='rounded-md hover:scale-125 hover:duration-300' src={graveofthefireflies} alt="" />
+                <img className='rounded-md hover:scale-125 hover:duration-300' src={howlscastle} alt="" />
+                <img className='rounded-md hover:scale-125 hover:duration-300' src={myneighbortotoro} alt="" />
+                <img className='rounded-md hover:scale-125 hover:duration-300' src={perfectblue} alt="" />
+                <img className='rounded-md hover:scale-125 hover:duration-300' src={ponyo} alt="" />
+                <img className='rounded-md hover:scale-125 hover:duration-300' src={princessmononoke} alt="" />
+                <img className='rounded-md hover:scale-125 hover:duration-300' src={spiritedaway} alt="" />
+                <img className='rounded-md hover:scale-125 hover:duration-300' src={suzume} alt="" />
+                <img className='rounded-md hover:scale-125 hover:duration-300' src={theboyandtheheron} alt="" />
+                <img className='rounded-md hover:scale-125 hover:duration-300' src={yourname} alt="" />
 
             </div>
         </div>

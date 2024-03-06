@@ -13,18 +13,18 @@ import walle from '../../../../Assets/ImageSections/Movies/Animated/wall-e.jpg'
 function AnimatedMovies() {
     return (
         <div>
-            <h1 className='text-white cursor-pointer text-2xl mt-5 ml-5 font-serif'>ANIMATED MOVIES</h1>
-            <div className='flex cursor-pointer w-[20rem] h-[10rem] gap-5 mt-5 ml-5 '>
-                <img src={cars} alt="" />
-                <img src={coco} alt="" />
-                <img src={findingnemo} alt="" />
-                <img src={moana} alt="" />
-                <img src={rayandthelastdragon} alt="" />
-                <img src={spiderman2} alt="" />
-                <img src={tintin} alt="" />
-                <img src={toystory1} alt="" />
-                <img src={up} alt="" />
-                <img src={walle} alt="" />
+            <h1 className='text-white cursor-pointer text-2xl mt-10 ml-12 font-serif'>ANIMATED MOVIES</h1>
+            <div className='flex cursor-pointer w-[20rem] h-[10rem] gap-5 mt-5 ml-12 '>
+                <img className='rounded-md hover:scale-125 hover:duration-300' src={cars} alt="" />
+                <img className='rounded-md hover:scale-125 hover:duration-300' src={coco} alt="" />
+                <img className='rounded-md hover:scale-125 hover:duration-300' src={findingnemo} alt="" />
+                <img className='rounded-md hover:scale-125 hover:duration-300' src={moana} alt="" />
+                <img className='rounded-md hover:scale-125 hover:duration-300' src={rayandthelastdragon} alt="" />
+                <img className='rounded-md hover:scale-125 hover:duration-300' src={spiderman2} alt="" />
+                <img className='rounded-md hover:scale-125 hover:duration-300' src={tintin} alt="" />
+                <img className='rounded-md hover:scale-125 hover:duration-300' src={toystory1} alt="" />
+                <img className='rounded-md hover:scale-125 hover:duration-300' src={up} alt="" />
+                <img className='rounded-md hover:scale-125 hover:duration-300' src={walle} alt="" />
 
             </div>
         </div>
