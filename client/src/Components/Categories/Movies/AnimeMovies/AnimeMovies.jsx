@@ -14,19 +14,28 @@ function AnimeMovies() {
 
     return (
         <div>
-            <h1 className='text-white cursor-pointer text-2xl mt-10 ml-12 font-serif'>ANIME MOVIES</h1>
+            <h1 className='text-white cursor-pointer text-2xl mt-16 ml-12 font-serif'>ANIME MOVIES</h1>
             <div className='flex cursor-pointer w-[20rem] h-[10rem] gap-5 mt-5 ml-12 '>
                 <img className='rounded-md hover:scale-125 hover:duration-300' src={graveofthefireflies} alt="" />
-                <img className='rounded-md hover:scale-125 hover:duration-300' src={howlscastle} alt="" />
-                <img className='rounded-md hover:scale-125 hover:duration-300' src={myneighbortotoro} alt="" />
-                <img className='rounded-md hover:scale-125 hover:duration-300' src={perfectblue} alt="" />
-                <img className='rounded-md hover:scale-125 hover:duration-300' src={ponyo} alt="" />
-                <img className='rounded-md hover:scale-125 hover:duration-300' src={princessmononoke} alt="" />
-                <img className='rounded-md hover:scale-125 hover:duration-300' src={spiritedaway} alt="" />
-                <img className='rounded-md hover:scale-125 hover:duration-300' src={suzume} alt="" />
-                <img className='rounded-md hover:scale-125 hover:duration-300' src={theboyandtheheron} alt="" />
-                <img className='rounded-md hover:scale-125 hover:duration-300' src={yourname} alt="" />
-
+                <p className='ml-[-16rem] mt-[10.5rem] text-nowrap text-white font-semibold'>Grave Of The Fire Flies</p>
+                <img className='ml-[4rem] rounded-md hover:scale-125 hover:duration-300' src={howlscastle} alt="" />
+                <p className='ml-[-15rem] mt-[10.5rem] text-nowrap text-white font-semibold'>Howl's Moving Castle</p>
+                <img className='ml-[4rem] rounded-md hover:scale-125 hover:duration-300' src={myneighbortotoro} alt="" />
+                <p className='ml-[-15rem] mt-[10.5rem] text-nowrap text-white font-semibold'>My Neighbor Totoro</p>
+                <img className='ml-[4.5rem] rounded-md hover:scale-125 hover:duration-300' src={perfectblue} alt="" />
+                <p className='ml-[-13rem] mt-[10.5rem] text-nowrap text-white font-semibold'>Perfect Blue</p>
+                <img className='ml-[5.8rem] rounded-md hover:scale-125 hover:duration-300' src={ponyo} alt="" />
+                <p className='ml-[-12rem] mt-[10.5rem] text-nowrap text-white font-semibold'>Ponyo</p>
+                <img className='ml-[8rem] rounded-md hover:scale-125 hover:duration-300' src={princessmononoke} alt="" />
+                <p className='ml-[-14rem] mt-[10.5rem] text-nowrap text-white font-semibold'>Princess Mononoke</p>
+                <img className='ml-[4rem] rounded-md hover:scale-125 hover:duration-300' src={spiritedaway} alt="" />
+                <p className='ml-[-13rem] mt-[10.5rem] text-nowrap text-white font-semibold'>Spirited Away</p>
+                <img className='ml-[5.5rem] rounded-md hover:scale-125 hover:duration-300' src={suzume} alt="" />
+                <p className='ml-[-12rem] mt-[10.5rem] text-nowrap text-white font-semibold'>Suzume</p>
+                <img className='ml-[7rem] rounded-md hover:scale-125 hover:duration-300' src={theboyandtheheron} alt="" />
+                <p className='ml-[-15rem] mt-[10.5rem] text-nowrap text-white font-semibold'>The Boy And The Heron</p>
+                <img className='ml-[2.6rem] rounded-md hover:scale-125 hover:duration-300' src={yourname} alt="" />
+                <p className='ml-[-13rem] mt-[10.5rem] text-nowrap text-white font-semibold'>Your Name</p>
             </div>
         </div>
     )

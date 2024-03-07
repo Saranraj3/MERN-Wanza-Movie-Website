@@ -13,19 +13,28 @@ import youngsheldon from '../../../../Assets/ImageSections/Series/Sitcoms/young-
 function Sitcoms() {
     return (
         <div>
-            <h1 className='text-white cursor-pointer text-2xl mt-10 ml-12 font-serif'>SITCOMS</h1>
+            <h1 className='text-white cursor-pointer text-2xl mt-16 ml-12 font-serif'>SITCOMS</h1>
             <div className='flex cursor-pointer w-[20rem] h-[10rem] gap-5 mt-5 ml-12 '>
-              <img className='rounded-md hover:scale-125 hover:duration-300' src={rock} alt="" />
-              <img className='rounded-md hover:scale-125 hover:duration-300' src={brooklynninenine} alt="" />
-              <img className='rounded-md hover:scale-125 hover:duration-300' src={community} alt="" />
-              <img className='rounded-md hover:scale-125 hover:duration-300' src={friends} alt="" />
-              <img className='rounded-md hover:scale-125 hover:duration-300' src={howimetyourmother} alt="" />
-              <img className='rounded-md hover:scale-125 hover:duration-300' src={modernfamily} alt="" />
-              <img className='rounded-md hover:scale-125 hover:duration-300' src={seinfeld} alt="" />
-              <img className='rounded-md hover:scale-125 hover:duration-300' src={thebigbangtheory} alt="" />
-              <img className='rounded-md hover:scale-125 hover:duration-300' src={theoffice} alt="" />
-              <img className='rounded-md hover:scale-125 hover:duration-300' src={youngsheldon} alt="" />
-
+                <img className='rounded-md hover:scale-125 hover:duration-300' src={rock} alt="" />
+                <p className='ml-[-12rem] mt-[10.5rem] text-nowrap text-white font-semibold'>30 Rock</p>
+                <img className='ml-[7rem] rounded-md hover:scale-125 hover:duration-300' src={brooklynninenine} alt="" />
+                <p className='ml-[-14rem] mt-[10.5rem] text-nowrap text-white font-semibold'>Brooklyn Nine Nine</p>
+                <img className='ml-[3.5rem] rounded-md hover:scale-125 hover:duration-300' src={community} alt="" />
+                <p className='ml-[-13rem] mt-[10.5rem] text-nowrap text-white font-semibold'>Community</p>
+                <img className='ml-[6.5rem] rounded-md hover:scale-125 hover:duration-300' src={friends} alt="" />
+                <p className='ml-[-12rem] mt-[10.5rem] text-nowrap text-white font-semibold'>Friends</p>
+                <img className='ml-[7.5rem] rounded-md hover:scale-125 hover:duration-300' src={howimetyourmother} alt="" />
+                <p className='ml-[-15.5rem] mt-[10.5rem] text-nowrap text-white font-semibold'>How I Met Your Mother</p>
+                <img className='ml-[3.5rem] rounded-md hover:scale-125 hover:duration-300' src={modernfamily} alt="" />
+                <p className='ml-[-14rem] mt-[10.5rem] text-nowrap text-white font-semibold'>Modern Family</p>
+                <img className='ml-[6rem] rounded-md hover:scale-125 hover:duration-300' src={seinfeld} alt="" />
+                <p className='ml-[-12rem] mt-[10.5rem] text-nowrap text-white font-semibold'>Seinfeld</p>
+                <img className='ml-[7rem] rounded-md hover:scale-125 hover:duration-300' src={thebigbangtheory} alt="" />
+                <p className='ml-[-14rem] mt-[10.5rem] text-nowrap text-white font-semibold'>The Big Bang Theory</p>
+                <img className='ml-[3rem] rounded-md hover:scale-125 hover:duration-300' src={theoffice} alt="" />
+                <p className='ml-[-13rem] mt-[10.5rem] text-nowrap text-white font-semibold'>The Office </p>
+                <img className='ml-[7rem] rounded-md hover:scale-125 hover:duration-300' src={youngsheldon} alt="" />
+                <p className='ml-[-14rem] mt-[10.5rem] text-nowrap text-white font-semibold'>Young Sheldon</p>
             </div>
         </div>
     )
