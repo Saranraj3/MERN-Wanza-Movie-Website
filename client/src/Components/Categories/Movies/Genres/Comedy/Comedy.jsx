@@ -33,7 +33,7 @@ function Comedy() {
    
   return (
     <div className='overflow-x-hidden overflow-y-hidden'>
-    <h1 className='text-white cursor-pointer text-2xl mt-16 ml-12 font-serif'>BIOGRAPHY</h1>
+    <h1 className='text-white cursor-pointer text-2xl mt-16 ml-12 font-serif'>COMEDY</h1>
     <p style={{ display: !arrow && 'none' }} className='z-50 cursor-pointer hover:scale-150 hover:duration-300 left-0 mt-[5rem] ml-3 absolute text-white' onClick={() => handleClick('left')} ><KeyboardArrowLeftIcon /></p>
     <div className='flex cursor-pointer z-50 w-[20rem] h-[10rem] gap-5 mt-5 ml-12 translate-x-0 transition duration-1000 ease-out ' ref={listRef}>
         <img className='rounded-md hover:opacity-85 hover:scale-110 hover:duration-200' src={jumpstreet} alt="" />
