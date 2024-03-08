@@ -1,8 +1,11 @@
 import React from 'react'
+import MoviesSlider from '../Components/Sliders/MoviesSlider'
 
 function Movies() {
   return (
-    <div className='text-white'>Movies</div>
+    <div>
+        <MoviesSlider/>
+    </div>
   )
 }
 
