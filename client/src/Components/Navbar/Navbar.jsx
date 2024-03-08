@@ -17,9 +17,9 @@ function Navbar() {
                 <li className='hover:text-blue-500'>About</li>
             </ul>
             <div className='flex gap-5 justify-end cursor-pointer mr-[-1rem] mt-[-1.7rem]'>
-                <p className='text-white'><SearchIcon /></p>
-                <p className='text-white'><FavoriteOutlinedIcon /></p>
-                <p className='text-white'><PersonIcon /></p>
+                <p className='hover:opacity-50 text-white'><SearchIcon /></p>
+                <p className='hover:opacity-50 text-white'><FavoriteOutlinedIcon /></p>
+                <p className='hover:opacity-50 text-white'><PersonIcon /></p>
                 <p className='invisible text-white'><MenuIcon /></p>
             </div>
         </div>
