@@ -6,6 +6,7 @@ import Biography from '../Components/Categories/Movies/Genres/Biography/Biograph
 import Comedy from '../Components/Categories/Movies/Genres/Comedy/Comedy'
 import Crime from '../Components/Categories/Movies/Genres/Crime/Crime'
 import Drama from '../Components/Categories/Movies/Genres/Drama/Drama'
+import Fantasy from '../Components/Categories/Movies/Genres/Fantasy/Fantasy'
 
 function Movies() {
   return (
@@ -17,6 +18,7 @@ function Movies() {
         <Comedy/>
         <Crime/>
         <Drama/>
+        <Fantasy/>
     </div>
   )
 }
