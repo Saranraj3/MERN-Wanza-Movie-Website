@@ -19,7 +19,7 @@ function HomeSlider() {
         pauseOnHover: false,
     };
   return (
-    <div className='overflow-x-hidden '>
+    <div className='overflow-x-hidden overflow-y-hidden '>
         <Slider {...settings} className=' overflow-x-hidden overflow-y-hidden  h-[32rem]'>
         <div>
             <img src={argylle} alt="" />
