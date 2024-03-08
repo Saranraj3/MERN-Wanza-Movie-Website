@@ -1,5 +1,4 @@
 import React from 'react'
-import Navbar from '../Components/Navbar/Navbar'
 import HomeSlider from '../Components/HomeSlider/HomeSlider'
 import TrendingMovies from '../Components/Categories/Movies/TrendingMovies/TrendingMovies'
 import PopularMovies from '../Components/Categories/Movies/PopularMovies/PopularMovies'
@@ -11,24 +10,21 @@ import AnimatedSeries from '../Components/Categories/Series/AnimatedSeries/Anima
 import AnimeSeries from '../Components/Categories/Series/AnimeSeries/AnimeSeries'
 import Sitcoms from '../Components/Categories/Series/Sitcoms/Sitcoms'
 import Documentary from '../Components/Categories/Series/Documentary/Documentary'
-import Footer from '../Components/Footer/Footer'
 
 function Home() {
     return (
         <div>
-            <Navbar/>
-            <HomeSlider/>
-            <TrendingMovies/>
-            <PopularMovies/>
-            <AnimatedMovies/>
-            <AnimeMovies/>
-            <TrendingSeries/>
-            <PopularSeries/>
-            <AnimatedSeries/>
-            <AnimeSeries/>
-            <Sitcoms/>
-            <Documentary/>
-            <Footer/>
+            <HomeSlider />
+            <TrendingMovies />
+            <PopularMovies />
+            <AnimatedMovies />
+            <AnimeMovies />
+            <TrendingSeries />
+            <PopularSeries />
+            <AnimatedSeries />
+            <AnimeSeries />
+            <Sitcoms />
+            <Documentary />
         </div>
     )
 }

@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 import Logo from '../../Assets/Logo/film.png'
 import SearchIcon from '@mui/icons-material/Search';
 import FavoriteOutlinedIcon from '@mui/icons-material/FavoriteOutlined';
@@ -11,8 +12,8 @@ function Navbar() {
             <img className='h-7 ml-4 cursor-pointer' src={Logo} alt="" />
             <h1 className='text-white ml-16 mt-[-1.5rem] cursor-pointer'>Wanza</h1>
             <ul className='text-white text-xl mr-5 flex gap-10 mt-[-1.7rem] cursor-pointer justify-center font-serif'>
-                <li className='hover:text-blue-500'>Home</li>
-                <li className='hover:text-blue-500'>Movies</li>
+                <Link to='/' className='hover:text-blue-500'>Home</Link>
+                <Link to='/movies' className='hover:text-blue-500'>Movies</Link>
                 <li className='hover:text-blue-500'>Shows</li>
                 <li className='hover:text-blue-500'>About</li>
             </ul>
