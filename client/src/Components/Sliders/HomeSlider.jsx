@@ -18,6 +18,7 @@ function HomeSlider() {
         autoplaySpeed: 3000,
         pauseOnHover: false,
     };
+    
   return (
     <div className='overflow-x-hidden overflow-y-hidden '>
         <Slider {...settings} className=' overflow-x-hidden overflow-y-hidden  h-[32rem]'>
