@@ -14,7 +14,7 @@ function Navbar() {
             <ul className='text-white text-xl mr-5 flex gap-10 mt-[-1.7rem] cursor-pointer justify-center font-serif'>
                 <Link to='/' className='hover:text-blue-500'>Home</Link>
                 <Link to='/movies' className='hover:text-blue-500'>Movies</Link>
-                <li className='hover:text-blue-500'>Shows</li>
+                <Link to='/shows' className='hover:text-blue-500'>Shows</Link>
                 <li className='hover:text-blue-500'>About</li>
             </ul>
             <div className='flex gap-5 justify-end cursor-pointer mr-[-1rem] mt-[-1.7rem]'>
