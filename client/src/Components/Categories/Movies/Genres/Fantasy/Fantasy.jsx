@@ -2,13 +2,13 @@ import React, { useState, useRef } from 'react'
 import KeyboardArrowLeftIcon from '@mui/icons-material/KeyboardArrowLeft';
 import KeyboardArrowRightIcon from '@mui/icons-material/KeyboardArrowRight';
 import aladdin from '../../../../../Assets/ImageSections/Movies/Genres/Fantasy/aladdin.jpg'
-import harrypotter from '../../../../../Assets/ImageSections/Movies/Genres/Fantasy/harry-potter-and-the-philosophers-stone-1.jpg'
-import jackandgiantslayer from '../../../../../Assets/ImageSections/Movies/Genres/Fantasy/jack-and-giant-slayer.jpg'
-import maleficent from '../../../../../Assets/ImageSections/Movies/Genres/Fantasy/maleficent.jpg'
+import harrypotter from '../../../../../Assets/ImageSections/Movies/Genres/Fantasy/harry-potter1.jpg'
+import jackandgiantslayer from '../../../../../Assets/ImageSections/Movies/Genres/Fantasy/jack-the-giant-slayer.jpg'
+import maleficent from '../../../../../Assets/ImageSections/Movies/Genres/Fantasy/maleficent1.jpg'
 import mulan from '../../../../../Assets/ImageSections/Movies/Genres/Fantasy/mulan.jpg'
 import princeofpersia from '../../../../../Assets/ImageSections/Movies/Genres/Fantasy/prince-of-persia.jpg'
 import sleepyhollow from '../../../../../Assets/ImageSections/Movies/Genres/Fantasy/sleepy-hollow.jpg'
-import thechroniclesofnarnia from '../../../../../Assets/ImageSections/Movies/Genres/Fantasy/the-chronicles-of-narnia-1.jpg'
+import thechroniclesofnarnia from '../../../../../Assets/ImageSections/Movies/Genres/Fantasy/the-chronicles-of-narnia1.jpg'
 import thegreenknight from '../../../../../Assets/ImageSections/Movies/Genres/Fantasy/the-green-knight.jpg'
 import warcraft from '../../../../../Assets/ImageSections/Movies/Genres/Fantasy/warcraft.jpg'
 

@@ -1,14 +1,14 @@
 import React, { useState, useRef } from 'react'
 import KeyboardArrowLeftIcon from '@mui/icons-material/KeyboardArrowLeft';
 import KeyboardArrowRightIcon from '@mui/icons-material/KeyboardArrowRight';
-import jumpstreet from '../../../../../Assets/ImageSections/Movies/Genres/Comedy/21-jump-street.jpg'
-import yearoldvirgin from '../../../../../Assets/ImageSections/Movies/Genres/Comedy/40-year-old-virgin.jpg'
-import anchorman from '../../../../../Assets/ImageSections/Movies/Genres/Comedy/anchorman-the-legend-of-ron-burgundy.jpg'
+import jumpstreet from '../../../../../Assets/ImageSections/Movies/Genres/Comedy/jump-street.jpg'
+import yearoldvirgin from '../../../../../Assets/ImageSections/Movies/Genres/Comedy/the-year-old-virgin.jpg'
+import anchorman from '../../../../../Assets/ImageSections/Movies/Genres/Comedy/anchorman-the-legend.jpg'
 import brucealmighty from '../../../../../Assets/ImageSections/Movies/Genres/Comedy/bruce-almighty.jpg'
 import mrbean from '../../../../../Assets/ImageSections/Movies/Genres/Comedy/mr-bean-holiday.jpg'
 import stuber from '../../../../../Assets/ImageSections/Movies/Genres/Comedy/stuber.jpg'
-import thedictator from '../../../../../Assets/ImageSections/Movies/Genres/Comedy/the-dictator.jpg'
-import thehangover from '../../../../../Assets/ImageSections/Movies/Genres/Comedy/the-hangover-1.jpg'
+import thedictator from '../../../../../Assets/ImageSections/Movies/Genres/Comedy/the-dictator.jpeg'
+import thehangover from '../../../../../Assets/ImageSections/Movies/Genres/Comedy/the-hangover1.jpg'
 import themask from '../../../../../Assets/ImageSections/Movies/Genres/Comedy/the-mask.jpg'
 import weremillers from '../../../../../Assets/ImageSections/Movies/Genres/Comedy/were-the-millers.jpg'
 

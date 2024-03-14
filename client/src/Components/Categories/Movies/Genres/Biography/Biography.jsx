@@ -1,10 +1,10 @@
 import React, { useState, useRef } from 'react'
 import KeyboardArrowLeftIcon from '@mui/icons-material/KeyboardArrowLeft';
 import KeyboardArrowRightIcon from '@mui/icons-material/KeyboardArrowRight';
-import yearsofslave from '../../../../../Assets/ImageSections/Movies/Genres/Biography/12-years-of-slave.jpg'
+import yearsofslave from '../../../../../Assets/ImageSections/Movies/Genres/Biography/years-of-slave.jpeg'
 import americansniper from '../../../../../Assets/ImageSections/Movies/Genres/Biography/american-sniper.jpg'
 import blonde from '../../../../../Assets/ImageSections/Movies/Genres/Biography/blonde.jpg'
-import captianphillips from '../../../../../Assets/ImageSections/Movies/Genres/Biography/captian-phillips.jpg'
+import captianphillips from '../../../../../Assets/ImageSections/Movies/Genres/Biography/captain-phillips.jpg'
 import catchmeifyoucan from '../../../../../Assets/ImageSections/Movies/Genres/Biography/catch-me-if-you-can.jpg'
 import elvis from '../../../../../Assets/ImageSections/Movies/Genres/Biography/elvis.jpg'
 import intothewild from '../../../../../Assets/ImageSections/Movies/Genres/Biography/into-the-wild.jpg'

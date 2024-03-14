@@ -1,16 +1,16 @@
 import React,{useState,useRef} from 'react'
 import KeyboardArrowLeftIcon from '@mui/icons-material/KeyboardArrowLeft';
 import KeyboardArrowRightIcon from '@mui/icons-material/KeyboardArrowRight';
-import badboys from '../../../../../Assets/ImageSections/Movies/Genres/Action/bad-boys-for-life-4.jpg'
+import badboys from '../../../../../Assets/ImageSections/Movies/Genres/Action/bad-boys4.jpg'
 import bloodshot from '../../../../../Assets/ImageSections/Movies/Genres/Action/bloodshot.jpg'
-import extraction from '../../../../../Assets/ImageSections/Movies/Genres/Action/extraction.jpg'
-import johnwick from '../../../../../Assets/ImageSections/Movies/Genres/Action/john-wick-4.jpg'
+import extraction from '../../../../../Assets/ImageSections/Movies/Genres/Action/extraction2.jpg'
+import johnwick from '../../../../../Assets/ImageSections/Movies/Genres/Action/john-wick4.jpg'
 import missionimpossible from '../../../../../Assets/ImageSections/Movies/Genres/Action/mission-impossible-7.jpg'
 import nobody from '../../../../../Assets/ImageSections/Movies/Genres/Action/nobody.jpg'
-import sisu from '../../../../../Assets/ImageSections/Movies/Genres/Action/sisu.jpg'
-import theeaulizer from '../../../../../Assets/ImageSections/Movies/Genres/Action/the-equalizer-3.jpg'
-import theoldguard from '../../../../../Assets/ImageSections/Movies/Genres/Action/the-old-guard.jpg'
-import topgunmaverick from '../../../../../Assets/ImageSections/Movies/Genres/Action/top-gun-maverick-2.jpg'
+import sisu from '../../../../../Assets/ImageSections/Movies/Genres/Action/sisu.jpeg'
+import theeaulizer from '../../../../../Assets/ImageSections/Movies/Genres/Action/the-equalizer3.jpg'
+import theoldguard from '../../../../../Assets/ImageSections/Movies/Genres/Action/the-old-guard.jpeg'
+import topgunmaverick from '../../../../../Assets/ImageSections/Movies/Genres/Action/top-gun-maverick2.jpeg'
 
 function Action() {
     const [slider, setSlider] = useState(0)

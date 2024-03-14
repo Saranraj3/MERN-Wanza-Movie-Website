@@ -2,10 +2,10 @@ import React, { useState, useRef } from 'react'
 import KeyboardArrowLeftIcon from '@mui/icons-material/KeyboardArrowLeft';
 import KeyboardArrowRightIcon from '@mui/icons-material/KeyboardArrowRight';
 import babylon from '../../../../../Assets/ImageSections/Movies/Genres/Drama/babylon.jpg'
-import beautifulmind from '../../../../../Assets/ImageSections/Movies/Genres/Drama/beautiful-mind.jpg'
+import beautifulmind from '../../../../../Assets/ImageSections/Movies/Genres/Drama/a-beautiful-mind.jpg'
 import forrestgump from '../../../../../Assets/ImageSections/Movies/Genres/Drama/forrest-gump.jpg'
 import goodwillhunting from '../../../../../Assets/ImageSections/Movies/Genres/Drama/good-will-hunting.jpg'
-import pursuitofhappynes from '../../../../../Assets/ImageSections/Movies/Genres/Drama/pursuit-of-happyness.jpg'
+import pursuitofhappynes from '../../../../../Assets/ImageSections/Movies/Genres/Drama/the-pursuit-of-happyness.jpg'
 import schinderlist from '../../../../../Assets/ImageSections/Movies/Genres/Drama/schindlers-list.jpg'
 import sully from '../../../../../Assets/ImageSections/Movies/Genres/Drama/sully.jpg'
 import thebansheeofinisherin from '../../../../../Assets/ImageSections/Movies/Genres/Drama/the-banshees-of-inisherin.jpg'

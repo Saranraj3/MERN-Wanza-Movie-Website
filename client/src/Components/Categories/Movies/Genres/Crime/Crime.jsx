@@ -1,14 +1,14 @@
 import React, { useState, useRef } from 'react'
 import KeyboardArrowLeftIcon from '@mui/icons-material/KeyboardArrowLeft';
 import KeyboardArrowRightIcon from '@mui/icons-material/KeyboardArrowRight';
-import goodfellas from '../../../../../Assets/ImageSections/Movies/Genres/Crime/goodfellas.jpg'
+import goodfellas from '../../../../../Assets/ImageSections/Movies/Genres/Crime/good-fellas.jpg'
 import knivesout from '../../../../../Assets/ImageSections/Movies/Genres/Crime/knives-out.jpg'
 import murderontheorientexpress from '../../../../../Assets/ImageSections/Movies/Genres/Crime/murder-on-the-orient-express.jpg'
 import prisoners from '../../../../../Assets/ImageSections/Movies/Genres/Crime/prisoners.jpg'
 import scarface from '../../../../../Assets/ImageSections/Movies/Genres/Crime/scarface.jpg'
 import seven from '../../../../../Assets/ImageSections/Movies/Genres/Crime/seven.jpg'
-import silenceofthelambs from '../../../../../Assets/ImageSections/Movies/Genres/Crime/silence-of-the-lambs.jpg'
-import theotherme from '../../../../../Assets/ImageSections/Movies/Genres/Crime/the-other-me.jpg'
+import silenceofthelambs from '../../../../../Assets/ImageSections/Movies/Genres/Crime/the-silence-of-the-lambs.jpg'
+import themachinist from '../../../../../Assets/ImageSections/Movies/Genres/Crime/the-machinist.jpeg'
 import thepaleblueeye from '../../../../../Assets/ImageSections/Movies/Genres/Crime/the-pale-blue-eye.jpg'
 import zodiac from '../../../../../Assets/ImageSections/Movies/Genres/Crime/zodiac.jpg'
 
@@ -43,7 +43,7 @@ function Crime() {
                 <img className='rounded-md hover:opacity-85 hover:scale-110 hover:duration-200' src={scarface} alt="" />
                 <img className='rounded-md hover:opacity-85 hover:scale-110 hover:duration-200' src={seven} alt="" />
                 <img className='rounded-md hover:opacity-85 hover:scale-110 hover:duration-200' src={silenceofthelambs} alt="" />
-                <img className='rounded-md hover:opacity-85 hover:scale-110 hover:duration-200' src={theotherme} alt="" />
+                <img className='rounded-md hover:opacity-85 hover:scale-110 hover:duration-200' src={themachinist} alt="" />
                 <img className='rounded-md hover:opacity-85 hover:scale-110 hover:duration-200' src={thepaleblueeye} alt="" />
                 <img className='rounded-md hover:opacity-85 hover:scale-110 hover:duration-200' src={zodiac} alt="" />
             </div>
