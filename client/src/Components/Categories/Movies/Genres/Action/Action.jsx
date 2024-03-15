@@ -5,7 +5,7 @@ import badboys from '../../../../../Assets/ImageSections/Movies/Genres/Action/ba
 import bloodshot from '../../../../../Assets/ImageSections/Movies/Genres/Action/bloodshot.jpg'
 import extraction from '../../../../../Assets/ImageSections/Movies/Genres/Action/extraction2.jpg'
 import johnwick from '../../../../../Assets/ImageSections/Movies/Genres/Action/john-wick4.jpg'
-import missionimpossible from '../../../../../Assets/ImageSections/Movies/Genres/Action/mission-impossible-7.jpg'
+import missionimpossible from '../../../../../Assets/ImageSections/Movies/Genres/Action/mission-impossible7.jpg'
 import nobody from '../../../../../Assets/ImageSections/Movies/Genres/Action/nobody.jpg'
 import sisu from '../../../../../Assets/ImageSections/Movies/Genres/Action/sisu.jpeg'
 import theeaulizer from '../../../../../Assets/ImageSections/Movies/Genres/Action/the-equalizer3.jpg'

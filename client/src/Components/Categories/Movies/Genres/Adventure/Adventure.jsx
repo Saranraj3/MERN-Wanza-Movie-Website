@@ -3,7 +3,7 @@ import KeyboardArrowLeftIcon from '@mui/icons-material/KeyboardArrowLeft';
 import KeyboardArrowRightIcon from '@mui/icons-material/KeyboardArrowRight';
 import alpha from '../../../../../Assets/ImageSections/Movies/Genres/Adventure/alpha.jpg'
 import indiana from '../../../../../Assets/ImageSections/Movies/Genres/Adventure/indiana-jones-5.jpg'
-import jurassicworld from '../../../../../Assets/ImageSections/Movies/Genres/Adventure/jurassic-world1.png'
+import jurassicworld from '../../../../../Assets/ImageSections/Movies/Genres/Adventure/jurassic-world3.png'
 import loveandmonster from '../../../../../Assets/ImageSections/Movies/Genres/Adventure/love-and-monsters.jpg'
 import piratesofthecaribbean from '../../../../../Assets/ImageSections/Movies/Genres/Adventure/pirates-of-the-caribbean4.jpg'
 import riseoftheplanet from '../../../../../Assets/ImageSections/Movies/Genres/Adventure/planet-of-the-apes1.jpeg'
