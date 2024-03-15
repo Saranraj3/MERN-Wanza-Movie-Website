@@ -15,7 +15,7 @@ function Navbar() {
                 <Link to='/' className='hover:text-blue-500'>Home</Link>
                 <Link to='/movies' className='hover:text-blue-500'>Movies</Link>
                 <Link to='/shows' className='hover:text-blue-500'>Shows</Link>
-                <li className='hover:text-blue-500'>About</li>
+                <Link to='/about' className='hover:text-blue-500'>About</Link>
             </ul>
             <div className='flex gap-5 justify-end cursor-pointer mr-[-1rem] mt-[-1.7rem]'>
                 <p className='hover:opacity-50 text-white'><SearchIcon /></p>
