@@ -8,7 +8,7 @@ import MenuIcon from '@mui/icons-material/Menu';
 function Navbar() {
 
     return (
-        <div className='sticky top-0 z-10 h-12 pt-2 bg-black overflow-x-hidden overflow-y-hidden'>
+        <div className='sticky top-0 rounded-2xl z-10 w-[70rem] h-12 ml-[8rem] pt-2 bg-black overflow-x-hidden overflow-y-hidden'>
             <img className='h-7 ml-4 cursor-pointer' src={Logo} alt="" />
             <h1 className='text-white ml-16 mt-[-1.5rem] cursor-pointer'>Wanza</h1>
             <ul className='text-white text-xl mr-5 flex gap-10 mt-[-1.7rem] cursor-pointer justify-center font-serif'>
