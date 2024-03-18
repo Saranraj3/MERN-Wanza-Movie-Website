@@ -21,7 +21,7 @@ function HomeSlider() {
     
   return (
     <div className='overflow-x-hidden overflow-y-hidden '>
-        <Slider {...settings} className=' overflow-x-hidden overflow-y-hidden  h-[32rem]'>
+        <Slider {...settings} className=' overflow-x-hidden overflow-y-hidden h-[32rem]'>
         <div>
             <img src={argylle} alt="" />
         </div>

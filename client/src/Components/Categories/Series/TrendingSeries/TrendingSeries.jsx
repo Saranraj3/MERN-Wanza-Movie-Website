@@ -1,6 +1,7 @@
-import React, { useState, useRef } from 'react'
-import KeyboardArrowLeftIcon from '@mui/icons-material/KeyboardArrowLeft';
-import KeyboardArrowRightIcon from '@mui/icons-material/KeyboardArrowRight';
+import React from 'react'
+import Slider from 'react-slick'
+import 'slick-carousel/slick/slick.css';
+import 'slick-carousel/slick/slick-theme.css';
 import ashoka from '../../../../Assets/ImageSections/Series/Trending/ahsoka.jpg'
 import beef from '../../../../Assets/ImageSections/Series/Trending/beef.jpg'
 import deadringers from '../../../../Assets/ImageSections/Series/Trending/dead-ringers.jpg'
@@ -13,41 +14,54 @@ import thesympathize from '../../../../Assets/ImageSections/Series/Trending/the-
 import truedetective from '../../../../Assets/ImageSections/Series/Trending/true-detective.jpg'
 
 function TrendingSeries() {
-    const [slider, setSlider] = useState(0)
-    const [arrow, setArrow] = useState(false)
-
-    const listRef = useRef()
-
-    const handleClick = (direction) => {
-        setArrow(true)
-        let distance = listRef.current.getBoundingClientRect().x - 50
-        if (direction === 'left' && slider > 0) {
-            setSlider(slider - 1)
-            listRef.current.style.transform = `translateX(${230 + distance}px)`
-        }
-        if (direction === 'right' && slider < 8) {
-            setSlider(slider + 1)
-            listRef.current.style.transform = `translateX(${-230 + distance}px)`
-        }
+    const settings = {
+        dots: false,
+        speed: 500,
+        infinite: true,
+        slidesToShow: 4,
+        slidesToScroll: 2,
+        autoplay: false,
+        autoplaySpeed: 3000,
+        pauseOnHover: false,
     }
+
     return (
-        <div className='overflow-x-hidden overflow-y-hidden'>
+        <div className='overflow-x-hidden overflow-y-hidden cursor-pointer'>
             <h1 className='text-white cursor-pointer text-2xl mt-16 ml-12 font-serif'>TRENDING SERIES</h1>
-            <p style={{ display: !arrow && 'none' }} className='z-50 cursor-pointer hover:scale-150 hover:duration-300 left-0 mt-[5rem] ml-3 absolute text-white' onClick={() => handleClick('left')} ><KeyboardArrowLeftIcon /></p>
-            <div className='flex cursor-pointer z-50 w-[20rem] h-[10rem] gap-5 mt-5 ml-12 translate-x-0 transition duration-1000 ease-out ' ref={listRef}>
-                <img className=' rounded-md hover:opacity-85 hover:scale-110 hover:duration-200' src={ashoka} alt="" />
-                <img className=' rounded-md hover:opacity-85 hover:scale-110 hover:duration-200' src={beef} alt="" />
-                <img className=' rounded-md hover:opacity-85 hover:scale-110 hover:duration-200' src={deadringers} alt="" />
-                <img className=' rounded-md hover:opacity-85 hover:scale-110 hover:duration-200' src={fallout} alt="" />
-                <img className=' rounded-md hover:opacity-85 hover:scale-110 hover:duration-200' src={fargo} alt="" />
-                <img className=' rounded-md hover:opacity-85 hover:scale-110 hover:duration-200' src={genv} alt="" />
-                <img className=' rounded-md hover:opacity-85 hover:scale-110 hover:duration-200' src={halo} alt="" />
-                <img className=' rounded-md hover:opacity-85 hover:scale-110 hover:duration-200' src={penguin} alt="" />
-                <img className=' rounded-md hover:opacity-85 hover:scale-110 hover:duration-200' src={thesympathize} alt="" />
-                <img className=' rounded-md hover:opacity-85 hover:scale-110 hover:duration-200' src={truedetective} alt="" />
-            </div>
-            <p className='cursor-pointer hover:scale-150 z-50 hover:duration-300 right-0 mt-[-6rem] absolute text-white' onClick={() => handleClick('right')}><KeyboardArrowRightIcon /></p>
+            <Slider {...settings} className='w-[80rem] mt-5 ml-12 '>
+                <div>
+                    <img className='ml-3 hover:scale-110 hover:duration-200' src={ashoka} alt="" />
+                </div>
+                <div>
+                    <img className='ml-3 hover:scale-110 hover:duration-200' src={beef} alt="" />
+                </div>
+                <div>
+                    <img className='ml-3 hover:scale-110 hover:duration-200' src={deadringers} alt="" />
+                </div>
+                <div>
+                    <img className='ml-3 hover:scale-110 hover:duration-200' src={fallout} alt="" />
+                </div>
+                <div>
+                    <img className='ml-3 hover:scale-110 hover:duration-200' src={fargo} alt="" />
+                </div>
+                <div>
+                    <img className='ml-3 hover:scale-110 hover:duration-200' src={genv} alt="" />
+                </div>
+                <div>
+                    <img className='ml-3 hover:scale-110 hover:duration-200' src={halo} alt="" />
+                </div>
+                <div>
+                    <img className='ml-3 hover:scale-110 hover:duration-200' src={penguin} alt="" />
+                </div>
+                <div>
+                    <img className='ml-3 hover:scale-110 hover:duration-200' src={thesympathize} alt="" />
+                </div>
+                <div>
+                    <img className='ml-3 hover:scale-110 hover:duration-200' src={truedetective} alt="" />
+                </div>
+            </Slider>
         </div>
+
     )
 }
 

@@ -1,6 +1,7 @@
-import React, { useRef, useState } from 'react'
-import KeyboardArrowLeftIcon from '@mui/icons-material/KeyboardArrowLeft';
-import KeyboardArrowRightIcon from '@mui/icons-material/KeyboardArrowRight';
+import React from 'react'
+import Slider from 'react-slick'
+import 'slick-carousel/slick/slick.css';
+import 'slick-carousel/slick/slick-theme.css';
 import anyonebutyou from '../../../../Assets/ImageSections/Movies/Trending/anyone-but-you.jpg'
 import aquaman2 from '../../../../Assets/ImageSections/Movies/Trending/aquaman2.jpg'
 import barbie from '../../../../Assets/ImageSections/Movies/Trending/barbie.jpg'
@@ -9,47 +10,57 @@ import killersoftheflowermoon from '../../../../Assets/ImageSections/Movies/Tren
 import landofbad from '../../../../Assets/ImageSections/Movies/Trending/land-of-bad.jpg'
 import napoleon from '../../../../Assets/ImageSections/Movies/Trending/napoleon.png'
 import oppenheimer from '../../../../Assets/ImageSections/Movies/Trending/oppenheimer.jpg'
-import rebelmoon from '../../../../Assets/ImageSections/Movies/Trending/rebel-moon.png'
-import thehungergames5 from '../../../../Assets/ImageSections/Movies/Trending/the-hunger-games5.jpg'
+import rebelmoon from '../../../../Assets/ImageSections/Movies/Trending/rebel-moon.jpg'
+import silentnight from '../../../../Assets/ImageSections/Movies/Trending/silent-night.jpg'
 function TrendingMovies() {
+  const settings = {
+    dots: false,
+    speed: 500,
+    infinite: true,
+    slidesToShow: 4,
+    slidesToScroll: 2,
+    autoplay: false,
+    autoplaySpeed: 3000,
+    pauseOnHover: false,
 
-  const [slider, setSlider] = useState(0)
-  const [arrow, setArrow] = useState(false)
-
-
-  const listRef = useRef()
-
-  const handleClick = (direction) => {
-    setArrow(true)
-    let distance = listRef.current.getBoundingClientRect().x - 50
-    if (direction === 'left' && slider > 0) {
-      setSlider(slider - 1)
-      listRef.current.style.transform = `translateX(${230 + distance}px)`
-    }
-    if (direction === 'right' && slider < 8) {
-      setSlider(slider + 1)
-      listRef.current.style.transform = `translateX(${-230 + distance}px)`
-    }
-  }
-
+  };
   return (
-    <div className='overflow-x-hidden overflow-y-hidden' >
+    <div className='overflow-x-hidden overflow-y-hidden cursor-pointer' >
       <h1 className='relative text-white cursor-pointer text-2xl mt-16 ml-12 font-serif'>TRENDING MOVIES</h1>
-      <p style={{ display: !arrow && 'none' }} className='z-50 cursor-pointer hover:scale-150 hover:duration-300 left-0 mt-[5rem] ml-3 absolute text-white' onClick={() => handleClick('left')} ><KeyboardArrowLeftIcon /></p>
-      <div className=' flex cursor-pointer z-50 w-[20rem] h-[10rem] gap-5 mt-5 ml-12 translate-x-0 transition duration-1000 ease-out ' ref={listRef}>
-        <img className='rounded-md hover:opacity-85 hover:scale-110 hover:duration-200' src={anyonebutyou} alt="" />
-        <img className=' rounded-md hover:opacity-85 hover:scale-110 hover:duration-200' src={aquaman2} alt="" />
-        <img className=' rounded-md hover:opacity-85 hover:scale-110 hover:duration-200' src={barbie} alt="" />
-        <img className=' rounded-md hover:opacity-85 hover:scale-110 hover:duration-200' src={bobmarley} alt="" />
-        <img className=' rounded-md hover:opacity-85 hover:scale-110 hover:duration-200' src={killersoftheflowermoon} alt="" />
-        <img className=' rounded-md hover:opacity-85 hover:scale-110 hover:duration-200' src={landofbad} alt="" />
-        <img className=' rounded-md hover:opacity-85 hover:scale-110 hover:duration-200' src={napoleon} alt="" />
-        <img className=' rounded-md hover:opacity-85 hover:scale-110 hover:duration-200' src={oppenheimer} alt="" />
-        <img className=' rounded-md hover:opacity-85 hover:scale-110 hover:duration-200' src={rebelmoon} alt="" />
-        <img className=' rounded-md hover:opacity-85 hover:scale-110 hover:duration-200' src={thehungergames5} alt="" />
-      </div>
-      <p className='cursor-pointer hover:scale-150 z-50 hover:duration-300 right-0 mt-[-6rem] absolute text-white' onClick={() => handleClick('right')}><KeyboardArrowRightIcon /></p>
+      <Slider {...settings} className='w-[80rem] mt-5 ml-12'>
+        <div>
+          <img className='ml-3 hover:scale-110 hover:duration-200' src={anyonebutyou} alt="" />
+        </div>
+        <div>
+          <img className='ml-3 hover:scale-110 hover:duration-200' src={aquaman2} alt="" />
+        </div>
+        <div>
+          <img className='ml-3 hover:scale-110 hover:duration-200' src={barbie} alt="" />
+        </div>
+        <div>
+          <img className='ml-3 hover:scale-110 hover:duration-200' src={bobmarley} alt="" />
+        </div>
+        <div>
+          <img className='ml-3 hover:scale-110 hover:duration-200' src={killersoftheflowermoon} alt="" />
+        </div>
+        <div>
+          <img className='ml-3 hover:scale-110 hover:duration-200' src={landofbad} alt="" />
+        </div>
+        <div>
+          <img className='ml-3 hover:scale-110 hover:duration-200' src={napoleon} alt="" />
+        </div>
+        <div>
+          <img className='ml-3 hover:scale-110 hover:duration-200' src={oppenheimer} alt="" />
+        </div>
+        <div>
+          <img className='ml-3 hover:scale-110 hover:duration-200' src={rebelmoon} alt="" />
+        </div>
+        <div>
+          <img className='ml-3  hover:scale-110 hover:duration-200' src={silentnight} alt="" />
+        </div>
+      </Slider>
     </div>
+
   )
 }
 
