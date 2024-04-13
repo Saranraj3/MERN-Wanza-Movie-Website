@@ -18,11 +18,10 @@ function TrendingMovies() {
     speed: 500,
     infinite: true,
     slidesToShow: 4,
-    slidesToScroll: 2,
-    autoplay: false,
+    slidesToScroll: 1,
+    autoplay: true,
     autoplaySpeed: 3000,
     pauseOnHover: false,
-
   };
   return (
     <div className='overflow-x-hidden overflow-y-hidden cursor-pointer' >
@@ -60,7 +59,6 @@ function TrendingMovies() {
         </div>
       </Slider>
     </div>
-
   )
 }
 
